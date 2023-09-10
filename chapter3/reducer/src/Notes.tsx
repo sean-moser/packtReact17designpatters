@@ -49,7 +49,6 @@ const Notes = () => {
 	const [note, setNote] = useState("")
 
 	const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
-		console.log("here")
 		event.preventDefault()
 		const newNote = {
 			id: Date.now(),
